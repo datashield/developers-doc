@@ -7,7 +7,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/datashield/developers-doc" target="blank">Published with bookdown</a></li>
     edit: https://github.com/datashield/developers-doc/edit/master/%s
-    download: ["pdf", "epub"]
+    download: ["pdf"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
